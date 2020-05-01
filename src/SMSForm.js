@@ -51,7 +51,7 @@ class SMSForm extends Component {
     fetch("https://api.smartable.ai/coronavirus/news/US", {
       method: "GET",
       headers: {
-        "Subscription-Key": "79559029a15647d6a450795ab7ba2b59",
+        "Subscription-Key": "API_KEY",
       },
     })
       .then((response) => response.json())
