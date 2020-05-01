@@ -5,8 +5,8 @@ const pino = require("express-pino-logger")();
 
 //const accountSid = process.env.ACCOUNT_SID;
 //const authToken = process.env.AUTH_TOKEN;
-const accountSid = "AC1d45df3ce3418e26d4aac6d31ba67655";
-const authToken = "dd60a600a3e018b3e5fc07e3a62f5dec";
+const accountSid = "ACCOUNT_SID";
+const authToken = "AUTH_TOKEN";
 const client = require("twilio")(accountSid, authToken);
 
 const app = express();
@@ -19,7 +19,7 @@ app.post("/api/messages", (req, res) => {
 
   client.messages
     .create({
-      from: "+16464378171",
+      from: "APP_NUMBER",
       to: req.body.to,
       body: req.body.body,
     })
