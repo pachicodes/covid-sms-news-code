@@ -19,10 +19,10 @@ Here is how this application works:
 
 The follwing elements had their real values were stored on a .env file for security reasons, so here is the rescription of each:
 
--ACCOUNT_SID = 'Your Twilio Account Sid number'
--AUTH_TOKEN = 'Your Twilio Auth Token number'
--APP_NUMBER = 'Your Twilio Phone number'
--MY_NUMBER = 'A phone number for testing'
+- ACCOUNT_SID = 'Your Twilio Account Sid number'
+- AUTH_TOKEN = 'Your Twilio Auth Token number'
+- APP_NUMBER = 'Your Twilio Phone number'
+- MY_NUMBER = 'A phone number for testing'
 
 
 ## Resources
