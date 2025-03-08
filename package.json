@@ -6,7 +6,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "^3.4.0",
-    "twilio": "^3.43.0"
+    "twilio": "^5.4.5"
   },
   "scripts": {
     "start": "react-scripts start",
